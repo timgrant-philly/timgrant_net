@@ -1,0 +1,86 @@
+/*
+* {
+	border: 1px solid green;
+	82B279 - mint green
+	B7B3FF - pleasant purple
+	61FF41 - neon green
+	CC5F20 - orange
+	B27F61 - burnt orange
+
+}
+*/
+body {
+	font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+}
+lh {
+	font-weight: bold;
+}
+
+
+.header {
+	margin: 0 0 1em 0;
+	padding: 1em 0 1em 2em;
+	background-color: #3D64AC;
+	background-image: url("../images/snowscape.jpg");
+	background-size: cover;
+
+}
+.header p {
+	margin: 0;
+	padding:0;
+}
+.header h1 {
+	margin:0;
+}
+.header .letterbox {
+	display:block; 
+}
+.header .lego {
+	display:block;
+	float:left;
+	height: 120px;
+	background-color: rgba(200,200,200,0.8); 
+}
+.header .headline {
+	vertical-align:middle;
+	padding: 0.5em 1em 0;
+}
+.link-list {
+	list-style-type: none;
+}
+.link-list li {
+	margin: 1em 0;
+}
+.link-list .glyphicon {
+	margin-right: .5em;
+}
+
+.glyphicon { 
+	color: #B27F61; 
+}
+aside {
+	font-size: 11px;
+	z-index: 2;
+
+	background-color: white;
+
+	position: fixed; 
+	bottom:0; 
+	left:0;
+	margin:0;
+	padding:0 0 0 0.5em;
+	width: 100%;
+
+}
+aside a {
+	color: #999;
+}
+@media (max-width: 320px) {
+    .header h1 {
+    	font-size: 18px;
+    }
+    .header p {
+    	font-size: 14px;
+    }
+}
