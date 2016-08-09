@@ -45,8 +45,9 @@ header .headline {
 article .link-list {
 	list-style-type: none;
 }
-article .link-list lh {
-	font-weight: bold;
+article h2 {
+	font-weight: normal;
+	font-size: 18px;
 }
 article .link-list li {
 	margin: 1em 0;
