@@ -62,14 +62,11 @@ article .tagline {
 
 	font-style:italic;
 	text-align:center; 
-	margin-bottom: 2em;
 }
 /* Firewall configuration */
 aside.reminder {
 	font-size: 11px;
-	z-index: -20;
-
-	/*background-color: white;*/
+	z-index: 20;
 
 	position: fixed; 
 	bottom:0; 
@@ -82,18 +79,23 @@ aside.reminder {
 aside.reminder a {
 	color: #999;
 }
+aside .footer {
+	background-color: white;
+}
 /* SVG background */
 svg.svg-background {
 	position:absolute;
 	z-index: -10;
-	/*border: 2px solid orangered;*/
-
 }
 svg.svg-background .big-circle {
-	stroke: #B27F61;;
+	stroke: #B27F61;
 	stroke-width: 2px;
 	fill: #82B279; 
 }
+.stent-5em {
+	height: 5.5em;
+}
+
 /* Mobile breakpoints */
 @media (max-width: 320px) {
     .header h1 {
